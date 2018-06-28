@@ -40,7 +40,7 @@ public class MainActivityFragment extends Fragment {
 
     private Record[] getRecords(){
 
-        Record[] records = new Record[100000];
+        Record[] records = new Record[]{};
         Record record;
         for(int i = 0; i < 100000; i++){
             record = new Record("New Zealand", R.drawable.me);
